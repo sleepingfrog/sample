@@ -1,11 +1,20 @@
 {
   "name": "gtj",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "engines": {
+    "node": "20.11.1"
+  },
+  "dependencies": {
+    "@atlaskit/adf-schema": "^35.7.0",
+    "@atlaskit/editor-json-transformer": "^8.10.29",
+    "@atlaskit/editor-markdown-transformer": "^5.4.5",
+    "@urql/core": "^4.3.0",
+    "yargs": "^17.7.2"
+  },
+  "type": "module"
 }
